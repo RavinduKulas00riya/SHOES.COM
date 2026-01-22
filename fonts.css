@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "medium";
+    src: url("fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+@font-face {
+    font-family: "bold";
+    src: url("fonts/SFPRODISPLAYBOLD.OTF");
+}
+
+@font-face {
+    font-family: "italic";
+    src: url("fonts/SFPRODISPLAYBLACKITALIC.OTF");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url("fonts/SFPRODISPLAYREGULAR.OTF");
+}
+
+.medium{
+    font-family: "medium";
+}
+
+.bold{
+    font-family: "bold";
+}
+
+.italic{
+    font-family: "italic";
+}
+
+.regular{
+    font-family: "regular";
+}
+
+.twelve{
+    font-size: 12px;
+}
+
+.fourteen{
+    font-size: 14px;
+}

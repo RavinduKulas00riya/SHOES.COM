@@ -1,0 +1,142 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    /* background-image: url("resources/bg.jpg");
+    background-repeat: repeat; */
+}
+
+.trending{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.trending-title{
+    flex: 1;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trending-title span{
+    font-size: 40px;
+}
+
+.trending-title button{
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+.trending-list{
+    flex: 6;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trending-shoe-div{
+    height: 400px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-width: 1px;
+    border-color: #DCDCDC;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    /* transition: height 0.3s ease; */
+    transition: width 0.3s ease;
+}
+
+.trending-shoe-div:hover{
+    /* height: 506px; */
+    width: 250px;
+}
+
+.trending-shoe-div img{
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.trending-shoe-div .details{
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.trending-shoe-div .details span{
+    font-size: 13px;
+    width: 180px;
+}
+
+.trending-shoe-div .details button{
+    background-color: black;
+    border-radius: 20px;
+    width: 50%;
+    border: none;
+    height: 40px;
+}
+
+.brands-div{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.brands-div img{
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    width: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .trending{
+        width: 90%;
+    }
+
+    .trending-title{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .trending-list{
+        justify-content: center;
+    }
+
+    .trending-shoe-div{
+        /* height: 506px; */
+        width: 250px;
+    }
+
+    .brands-div img{
+        height: 70px;
+    }
+
+}

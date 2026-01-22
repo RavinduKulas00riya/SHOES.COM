@@ -1,0 +1,78 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.main-div {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sub-div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    border: 1px solid #dcdcdc;
+}
+
+.sub-div input {
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #A9A9A9;
+    background-color: #f5f5f5;
+    padding-left: 7px;
+}
+
+.sub-div select {
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid #A9A9A9;
+    background-color: #f5f5f5;
+    padding-left: 7px;
+    cursor: pointer;
+}
+
+.fontsize {
+    font-size: 14px;
+}
+
+.largefontsize {
+    font-size: 16px;
+}
+
+.place-order{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    border: 1px solid #dcdcdc;
+}
+
+.credit-cards{
+    width: 110px;
+    height: 20px;
+    border: 1px solid #000000;
+}
+
+.place-order button{
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

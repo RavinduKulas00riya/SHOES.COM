@@ -1,0 +1,37 @@
+.footer-main{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+}
+
+.footer-top-div{
+    height: 200px;
+    width: 230px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer-top{
+        width: 90%;
+    }
+
+    .footer-top-div{
+        width: 180px;
+    }
+}
