@@ -30,6 +30,7 @@ A modern and user-friendly e-commerce web application for browsing and purchasin
 
 ## Features
 - User authentication (Login & Sign up)
+- Reset Password capability
 - Browse shoes by size and preferences
 - Product search with filtering, sorting & pagination
 - Editable shopping cart
