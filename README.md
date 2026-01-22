@@ -2,6 +2,32 @@
 
 A modern and user-friendly e-commerce web application for browsing and purchasing shoes online.
 
+## Screenshots
+
+### SHOES.COM
+![SHOES.COM](screenshots/all.png)
+
+### Home page
+![Home page](screenshots/home.png)
+
+### Shop page
+![Shop page](screenshots/shop.png)
+
+### Login page
+![Login page](screenshots/login.png)
+
+### Sign Up page
+![Sign Up page](screenshots/signup.png)
+
+### Product page
+![Product page](screenshots/product.png)
+
+### Cart page
+![Cart page](screenshots/cart.png)
+
+### Checkout page
+![Checkout page](screenshots/checkout.png)
+
 ## Features
 - User authentication (Login & Sign up)
 - Browse shoes by size and preferences
