@@ -23,8 +23,8 @@ function generateRandomString($length = 5) {
     return $randomString;
 }
 
-$merchant_id = "1228954";
-$merchant_secret = "MjExNTEwNTI0NTgyOTk0NDE2NzQxODc3NzY5NzgzNzQyODYyODcx";
+$merchant_id = "YOUR_MERCHANT_ID";
+$merchant_secret = "YOUR_MERCHANT_SECRET";
 
 // Payment details
 $payment = [
