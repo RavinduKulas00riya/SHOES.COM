@@ -22,16 +22,20 @@ if (isset($_GET["e"])) {
         Database::iud("UPDATE `user` SET `verification_code`='" . $code . "' WHERE 
         `email`='" . $email . "'");
 
+        $YOUR_EMAIL = "YOUR_EMAIL_HERE";
+        $YOUR_USERNAME = "YOUR_USERNAME_HERE";
+        $YOUR_PASSWORD = "YOUR_PASSWORD_HERE";
+
         $mail = new PHPMailer;
         $mail->IsSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'ravinduk01@gmail.com';
-        $mail->Password = 'hqregddrqgjmkzsu';
+        $mail->Username = $YOUR_USERNAME;
+        $mail->Password = $YOUR_PASSWORD;
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
-        $mail->setFrom('ravinduk01@gmail.com', 'Reset Password');
-        $mail->addReplyTo('ravinduk01@gmail.com', 'Reset Password');
+        $mail->setFrom($YOUR_EMAIL, 'Reset Password');
+        $mail->addReplyTo($YOUR_EMAIL, 'Reset Password');
         $mail->addAddress($email);
         $mail->isHTML(true);
         $mail->Subject = 'Shoes.com Forgot Password Verification Code';
